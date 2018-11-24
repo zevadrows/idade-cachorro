@@ -43,8 +43,8 @@ public class Program {
 				double idadeCao = racaMed.idadeCao(idade, raca);
 				if (idade <= 2) {
 					idadeCao = idade * 10.5;
-				}
-				else {
+					System.out.printf("O seu cachorro tem %.1f em anos humanos.", idadeCao);
+				} else {
 					System.out.printf("O seu cachorro tem %.1f em anos humanos.", idadeCao);
 				}
 			} else if (porte == 3) {
@@ -57,6 +57,7 @@ public class Program {
 				double idadeCao = racaGran.idadeCao(idade, raca);
 				if (idade <= 2) {
 					idadeCao = idade * 9;
+					System.out.printf("O seu cachorro tem %.1f em anos humanos.", idadeCao);
 				} else {
 					System.out.printf("O seu cachorro tem %.1f em anos humanos.", idadeCao);
 				}
